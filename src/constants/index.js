@@ -111,19 +111,6 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
         title: "React Native Developer",
         company_name: "Tesla",
         icon: tesla,
@@ -173,12 +160,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/alpha343434',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/zehra-aydın-875213244',
     }
 ];
 
@@ -186,43 +173,30 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'An E-commerce Application',
+        description: 'This project delivers a shopping experience for users on both mobile devices and web browsers (via Flutter web support). It leverages the robust capabilities of Flutter for a performant and visually appealing user interface, while Firebase provides a scalable and secure backend for data management.',
+        link: 'https://github.com/alpha343434/flutter-app.git',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'A Book Reccommendation Website',
+        description: 'This is a flask project that aims to combat the influence of societal pressures and discover hidden gems within the vast world of literature. When a user clicks the "recommend a book" button, the web application leverages the Google Books API to deliver a truly random book suggestion.',
+        link: 'https://github.com/alpha343434/alpha/tree/ab93a9149bfedbfc486b1ba4269fb0e5bae6229a/bookDOM',
     },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
+
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'A Backhand Problem Logger',
+        description: 'Here is a .NET framework backhand application where users could logged, stock and see errors.',
+        link: 'https://github.com/alpha343434/.Net/tree/631823f20d9d90099e8af99c359fe2282c0a2c61/BusinessApp',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'AI Chatbot Application',
+        description: '(Ongoing project) This will hopefully be a child-user interactive chatbot where users can have fun while chatting.',
+        link: 'https://github.com/alpha343434/geminiAPI.git',
     }
 ];
