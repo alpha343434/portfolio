@@ -25,7 +25,7 @@ const Contact = () => {
     setLoading(true);
     setCurrentAnimation("hit");
 
-    emailjs
+    emailjs //service_sqgt6l6
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,

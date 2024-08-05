@@ -28,6 +28,16 @@ import {
 
 export const skills = [
     {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: motion,
+        name: "Motion",
+        type: "Animation",
+    },
+    {
         imageUrl: express,
         name: "Express",
         type: "Backend",
@@ -35,6 +45,16 @@ export const skills = [
     {
         imageUrl: css,
         name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: mui,
+        name: "Material-UI",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
     {
@@ -56,6 +76,11 @@ export const skills = [
         imageUrl: javascript,
         name: "JavaScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
 ];
 
