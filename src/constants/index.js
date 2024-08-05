@@ -28,6 +28,11 @@ import {
 
 export const skills = [
     {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+    {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
