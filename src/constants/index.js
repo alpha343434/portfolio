@@ -86,6 +86,16 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Student Assistant",
+        company_name: "ITU BIDB",
+        icon: meta,
+        iconBg: "#a2d2ff",
+        date: "Sep 2024 - Present",
+        points: [
+            "",
+        ],
+    },
+    {
         title: "Scrum Developer",
         company_name: "MEKUPTE",
         icon: tesla,
