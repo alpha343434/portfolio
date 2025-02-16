@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, hyperbee } from "../assets/images";
 import {
     car,
     contact,
@@ -86,6 +86,16 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Software and Electronics Member",
+        company_name: "ITU Hyperbee",
+        icon: hyperbee,
+        iconBg: "#000000",
+        date: "Oct 2023 - Present",
+        points: [
+            ""
+        ],
+    },
+    {
         title: "Student Assistant",
         company_name: "ITU BIDB",
         icon: meta,
@@ -105,7 +115,6 @@ export const experiences = [
             ""
         ],
     },
-
 ];
 
 export const socialLinks = [
